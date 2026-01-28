@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -g
+
+all: dynamic_test
+
+dynamic_test: dynamic_test.c
+    $(CC) $(CFLAGS) dynamic_test.c -o dynamic_test
+
+clean:
+	rm -f dynamic_test
