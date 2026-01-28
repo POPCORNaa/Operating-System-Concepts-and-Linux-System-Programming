@@ -13,4 +13,4 @@ hello_cpp: hello.cpp
 	$(CXX) $(CXXFLAGS) hello.cpp -o hello_cpp
 
 clean:
-		rm -f hello_c hello_cpp
+		rm -f hello hello_cpp
